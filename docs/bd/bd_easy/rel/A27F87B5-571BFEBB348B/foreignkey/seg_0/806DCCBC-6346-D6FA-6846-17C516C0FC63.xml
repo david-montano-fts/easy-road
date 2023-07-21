@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="806DCCBC-6346-D6FA-6846-17C516C0FC63" containerWithKeyObject="D4FFAECC-EE89-7EBC-4F09-CB90B6F2768D" localFKIndex="B6B5AE4D-B65E-47C5-D56A-D7BC04EFF927" name="EVENTO_POSTE_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>021D87DA-45C9-1C43-CD8A-A3A5E02F6D44</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<referredTableLongName>POSTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9EF8179-8A61-03E4-EED0-CCA2FEB61515</referredTableID>
+<keyObject>F7CA7BC7-FAE5-2B96-767D-ECB9A5752D19</keyObject>
+<referredKeyID>F7CA7BC7-FAE5-2B96-767D-ECB9A5752D19</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

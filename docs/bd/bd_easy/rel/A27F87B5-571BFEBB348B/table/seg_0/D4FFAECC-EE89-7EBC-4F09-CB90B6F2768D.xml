@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4FFAECC-EE89-7EBC-4F09-CB90B6F2768D" name="EVENTO">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>23015CC8-0606-4F30-6506-3A89ADE56443</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="05EE6118-8C8C-EB81-7B4A-11F3B073D41A">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>6085C3DC-7349-3B4C-4739-0D8659734996</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE" id="12764BA9-3988-1C11-8DCF-3FA9319E2012">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>CF0C88D9-5C6C-123A-8F32-EB202C014183</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="5143FBF0-2153-E9BE-A135-09AC8826F4E0">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>B4165A50-34F6-FA06-DA22-F3BDA902C3B2</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTE_ID" id="8025EFC2-DAED-D1E5-1990-B5BA8D5259CF">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>5A09F030-D7AF-E190-E5D7-00EBAB732660</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="806DCCBC-6346-D6FA-6846-17C516C0FC63" referredColumn="66A7703E-094B-E28D-641A-C04CF66920B5"/>
+</associations>
+</Column>
+<Column name="TIPO_ID" id="6EF1F71C-0C69-D649-CFD6-C1DB94E3D2C9">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>91C1A7C5-DE53-1C79-37E6-6EE9CFF7505B</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72585CBE-BF87-1CBD-C232-17A2D3AB99F0" referredColumn="D37A3AEC-266C-7420-8D68-20AF7D8F75B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FC4701D-591D-9EF1-8770-D77C8A43A1FE" name="EVENTO_PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>3F693C6A-C2C4-38B1-E6F5-E93295019B6F</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05EE6118-8C8C-EB81-7B4A-11F3B073D41A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B81F553-D3D6-4331-54E6-AB7F2540539B" name="EVENTO_TIPO_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>D78CB8F6-C42B-CC79-C6DC-53360ECCA1BE</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EF1F71C-0C69-D649-CFD6-C1DB94E3D2C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6B5AE4D-B65E-47C5-D56A-D7BC04EFF927" name="EVENTO_POSTE_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>021D87DA-45C9-1C43-CD8A-A3A5E02F6D44</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8025EFC2-DAED-D1E5-1990-B5BA8D5259CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

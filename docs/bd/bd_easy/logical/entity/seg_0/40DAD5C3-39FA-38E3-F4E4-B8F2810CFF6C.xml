@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40DAD5C3-39FA-38E3-F4E4-B8F2810CFF6C" name="PROYECTO">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:31:29 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4A423BB8-7961-7C37-5788-45918C7FF580">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:31:42 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="711EC9FD-0CED-7F9B-E2BE-F3CF7AD1BBD9">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:31:53 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="4EA4900E-5D8A-B4AD-61D6-FBC7111EC494">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:32:13 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="03DAE53F-1294-C10E-D7AA-EE7947E5AE0E">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 12:41:50 UTC</createdTime>
+<generatorID>B690E929-1BC3-61BD-795D-7F798757AEAF</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<referedAttribute>E8DB2B97-33A5-1DCD-68C8-8DD9B7DE9E14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F79E1B5E-DC25-10D7-756C-E7928EFD8ABD" name="PROJECT PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:31:51 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A423BB8-7961-7C37-5788-45918C7FF580</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23015CC8-0606-4F30-6506-3A89ADE56443" name="EVENTO">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:58:52 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6085C3DC-7349-3B4C-4739-0D8659734996">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:59:25 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATE" id="CF0C88D9-5C6C-123A-8F32-EB202C014183">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 21:07:39 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTION" id="B4165A50-34F6-FA06-DA22-F3BDA902C3B2">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 21:04:37 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="5A09F030-D7AF-E190-E5D7-00EBAB732660">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 21:08:16 UTC</createdTime>
+<generatorID>021D87DA-45C9-1C43-CD8A-A3A5E02F6D44</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<referedAttribute>E81D0AC0-F456-E8B3-2BBC-6D4926E6B3D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="91C1A7C5-DE53-1C79-37E6-6EE9CFF7505B">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 12:36:21 UTC</createdTime>
+<generatorID>D78CB8F6-C42B-CC79-C6DC-53360ECCA1BE</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>85E61147-7293-8F4A-2DA4-F666F3F0DB7E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F693C6A-C2C4-38B1-E6F5-E93295019B6F" name="ALARM PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 21:05:34 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6085C3DC-7349-3B4C-4739-0D8659734996</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

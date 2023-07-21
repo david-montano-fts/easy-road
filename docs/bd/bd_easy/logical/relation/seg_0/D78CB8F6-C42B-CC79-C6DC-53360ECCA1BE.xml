@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EVENTO_TIPO" directorySegmentName="seg_0" id="D78CB8F6-C42B-CC79-C6DC-53360ECCA1BE">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 12:35:32 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<sourcePk>3F693C6A-C2C4-38B1-E6F5-E93295019B6F</sourcePk>
+<targetPk>CDF2A124-5FB8-42B4-E945-64D7184CA8A0</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>23015CC8-0606-4F30-6506-3A89ADE56443</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>06CB03A6-2E3B-E1DF-2236-803F4A7681C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

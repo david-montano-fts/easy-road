@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63A25C85-9E06-796D-1139-8D71F0FD7039" name="USUARIO">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:04:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="A27F87B5-89F1-B15D-6D2D-571BFEBB348B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6F94E998-9EE5-56FF-4675-3EF81CEA0D0D">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:04:52 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="A27F87B5-89F1-B15D-6D2D-571BFEBB348B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="13B8D301-9E20-2304-57FE-9F434B3F315A">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:05:04 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="A27F87B5-89F1-B15D-6D2D-571BFEBB348B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="BA90A8FA-7E24-B3DD-0D48-5C7D4EEE38CE">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:05:18 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="A27F87B5-89F1-B15D-6D2D-571BFEBB348B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO" id="6E47A1A8-54CE-DEDA-34CD-D501B00ACFE4">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:05:28 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="A27F87B5-89F1-B15D-6D2D-571BFEBB348B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONTRASENA" id="B83B14E8-4201-67EC-819E-97A51F8FD1BD">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:05:38 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="A27F87B5-89F1-B15D-6D2D-571BFEBB348B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="E99B4E5E-9E2A-7ED4-36DB-56613C6547C3">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:31:30 UTC</createdTime>
+<generatorID>A3CE0064-F505-27CD-38C3-BE8AD9E4E160</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="A27F87B5-89F1-B15D-6D2D-571BFEBB348B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E8DB2B97-33A5-1DCD-68C8-8DD9B7DE9E14</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3D4A03B-4C99-9C62-2C11-E902B94C0300" name="USUARIO PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:05:02 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A27F87B5-89F1-B15D-6D2D-571BFEBB348B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F94E998-9EE5-56FF-4675-3EF81CEA0D0D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

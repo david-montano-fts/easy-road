@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1EDB9309-9D66-661A-47D8-256E286198B0" name="USUARIO">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>63A25C85-9E06-796D-1139-8D71F0FD7039</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6F9E9D05-335A-0B3A-7583-76FE9CF4B4D2">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>6F94E998-9EE5-56FF-4675-3EF81CEA0D0D</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="807D4DEF-8140-580D-D2BF-4FC8FA5D997B">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>13B8D301-9E20-2304-57FE-9F434B3F315A</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="44330476-D5BD-6660-0344-DA1014D09476">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>BA90A8FA-7E24-B3DD-0D48-5C7D4EEE38CE</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="ADE6BF5F-06ED-E583-E17D-3D710830C6D3">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>6E47A1A8-54CE-DEDA-34CD-D501B00ACFE4</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="00CA0B43-2C87-8AA4-EF10-262CA7179325">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>B83B14E8-4201-67EC-819E-97A51F8FD1BD</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_ID" id="A7E05972-925C-E6B6-D38B-5F9BE5C0B4E2">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:35:19 UTC</createdTime>
+<generatorID>E99B4E5E-9E2A-7ED4-36DB-56613C6547C3</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E69999A4-E344-FCDB-EF17-7D9C5C65AC04" referredColumn="63CEDDCD-8E2F-3830-7B80-B3D7BA762ECA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E4F50B9-477A-C3BE-7143-8D9A5B9A00C8" name="USUARIO_PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>C3D4A03B-4C99-9C62-2C11-E902B94C0300</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F9E9D05-335A-0B3A-7583-76FE9CF4B4D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F13879E-33B4-FF40-01DE-76075CFECF6A" name="USUARIO_EMPRESA_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:35:19 UTC</createdTime>
+<generatorID>A3CE0064-F505-27CD-38C3-BE8AD9E4E160</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7E05972-925C-E6B6-D38B-5F9BE5C0B4E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

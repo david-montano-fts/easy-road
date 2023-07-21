@@ -1,0 +1,239 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9EF8179-8A61-03E4-EED0-CCA2FEB61515" name="POSTE">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>CFB60277-FFF0-D638-3FA7-BA7639865E22</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="66A7703E-094B-E28D-641A-C04CF66920B5">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>E81D0AC0-F456-E8B3-2BBC-6D4926E6B3D4</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIAL" id="F2EADCAB-C22C-9253-4FB3-CE90833C43C9">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>0D3694A5-0339-0E21-298B-22D6838099D1</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FABRICANTE" id="175F405B-9438-D1BA-A048-5B45DA3B6CF9">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>DD89AE25-81D6-4955-27D7-D2E5BB45ED32</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO" id="9BFB30A0-F5B7-0A4D-7D31-66C46F9E6F85">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>5978968B-07CD-9DDD-4AF4-0314224E8BBA</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMEI" id="AA58EAEC-9973-A963-C8B8-7CBB2662474C">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>1809F547-5164-2675-6CBE-14813A1175A4</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_SIM" id="52618A45-4585-473E-8241-0EDEB8C943A2">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>D2CFCE1B-56E1-73D8-3B58-924F5036A2D1</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVEL_SENAL" id="19523688-3A6D-96A1-9D13-2421EC56D322">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>56B4437A-37CD-746C-90DE-303FB139764E</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTRO" id="780EFF5A-AA9E-77A1-746B-5D0BDC59D276">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>488A438C-8138-6561-B041-FC7503DDD9A7</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPERADOR" id="04549B8B-A136-4F96-17F6-087348E7F375">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>31C75C96-8B95-D3FB-22EB-0F0F24DF084F</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BATERIA" id="05F2952B-22E5-6EB0-0DB3-FE6B0548EEE1">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>4C9897EE-6336-CF23-9C3A-BC097644137B</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMPER" id="815130FE-99E8-8F39-9DF7-AE2630AEFF42">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>D0C7B950-112B-6BA3-A552-1D3AA28BEB3D</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PANEL_SOLAR" id="24259076-E7DA-D406-3B22-F22DD76719B5">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>13871072-1120-B39F-B8E2-1FDE0E616020</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMERGENCIA_SIM" id="53D3281A-60C5-C37B-130A-AD34A072DBBE">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>3E01D7FD-8892-5B18-F650-9B917CC9A803</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_ID" id="68C9B28C-6674-CC6F-B57A-A7016898B42E">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>F738D26C-AE79-3E2C-2F20-8D6DD1F78C09</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A3B3F2A-CEF0-4641-7271-91FBD5174438" referredColumn="8CA7D5A1-8CEC-3DC3-5EE7-74428AB85257"/>
+</associations>
+</Column>
+<Column name="PROYECTO_ID" id="CCEB2309-570E-0E7E-C6B7-E5416DC01CBA">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>E0E10F6A-E07F-2C04-9C6C-9691B2753E43</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFF2D68F-24FD-853B-5F13-99E08B72992E" referredColumn="2CFC0DF2-A021-E634-74E8-9EBFBB8180A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7CA7BC7-FAE5-2B96-767D-ECB9A5752D19" name="POSTE_PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>599FD75D-E05F-AACE-5BDA-898869CAD713</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66A7703E-094B-E28D-641A-C04CF66920B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E80E8C5-F5F4-B79A-8513-CF5F015FB591" name="POSTE_ESTADO_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>5A1DBC8F-E261-E6A1-D475-1BE0E0AED6B3</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68C9B28C-6674-CC6F-B57A-A7016898B42E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA1A9E48-55B3-7ABD-15C6-6B0CE6445FC0" name="POSTE_PROYECTO_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>620A97E1-9409-98A9-178E-827E53822566</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCEB2309-570E-0E7E-C6B7-E5416DC01CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

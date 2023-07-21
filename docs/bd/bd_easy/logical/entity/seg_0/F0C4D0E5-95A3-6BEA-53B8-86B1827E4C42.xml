@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F0C4D0E5-95A3-6BEA-53B8-86B1827E4C42" name="ESTADO">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:47:44 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="528D320A-2A31-C4CC-751C-852CDEE1FAF8">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:47:57 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="0205C405-138D-E673-7858-01BAE6959D24">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:48:06 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32 CHAR</dataTypeSize>
+<ownDataTypeParameters>32 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5CD4644-110B-299A-932D-A9EC37EDDE51" name="STATE_PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:48:04 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>528D320A-2A31-C4CC-751C-852CDEE1FAF8</newElementsIDs>
+<usedAttributes>
+<attributeRef>528D320A-2A31-C4CC-751C-852CDEE1FAF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

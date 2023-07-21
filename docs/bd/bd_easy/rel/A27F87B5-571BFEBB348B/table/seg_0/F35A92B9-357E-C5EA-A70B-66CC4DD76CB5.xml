@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F35A92B9-357E-C5EA-A70B-66CC4DD76CB5" name="USUARIO_PROYECTO">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_ID" id="5BFD723E-12D7-D7BE-42A6-3447F79C4474">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF320804-A9BE-0037-EBF0-4BDB560FCF6E" referredColumn="6F9E9D05-335A-0B3A-7583-76FE9CF4B4D2"/>
+</associations>
+</Column>
+<Column name="PROYECTO_ID" id="48ADB9CD-E0DF-9E8D-F4FD-507FAE2D839D">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41418D12-524A-41CA-3544-A74CBEC20F9A" referredColumn="2CFC0DF2-A021-E634-74E8-9EBFBB8180A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00E7520E-20FE-5FBE-FE4C-E76C34198E48" name="USUARIO_PROYECTO_PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BFD723E-12D7-D7BE-42A6-3447F79C4474"/>
+<colUsage columnID="48ADB9CD-E0DF-9E8D-F4FD-507FAE2D839D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="841F625A-85A2-417B-77DC-DCE638530342" name="USUARIO_PROYECTO_USUARIO_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>9DD45478-97FB-FBB0-83C9-23AFB2FA8633</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BFD723E-12D7-D7BE-42A6-3447F79C4474"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A41189AE-7C8C-B50B-6462-3A1BBD04AB1C" name="USUARIO_PROYECTO_PROYECTO_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>9DD45478-97FB-FBB0-83C9-23AFB2FA8633</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48ADB9CD-E0DF-9E8D-F4FD-507FAE2D839D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

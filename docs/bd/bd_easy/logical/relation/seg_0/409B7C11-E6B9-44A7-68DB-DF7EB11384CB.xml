@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERFIL_RECURSOS" directorySegmentName="seg_0" id="409B7C11-E6B9-44A7-68DB-DF7EB11384CB">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 20:23:02 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<sourcePk>DB8631A4-B4BF-735D-481F-5F0D4EB6ECD2</sourcePk>
+<targetPk>A48C8082-4D48-0C15-B8D6-DA2E2E656C33</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1A844E27-3F96-0BB6-7CA5-756E89AB4718</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>47CFB36C-66FB-486C-721E-C4AD465AE45C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

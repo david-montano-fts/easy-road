@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="324E8677-4D17-C0C6-BD75-683A2F15828A" name="PERFIL_RECURSOS">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERFIL_ID" id="C096557A-CFAD-5428-0BEB-EF51FABCF261">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8301C60-68EF-DFC2-1410-52A51D1F08C2" referredColumn="3DEC7678-504F-91C5-9FC7-B53D434EA108"/>
+</associations>
+</Column>
+<Column name="RECURSOS_ID" id="7489A5AC-04D4-E138-09BF-16DA95F5FFC1">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5C1AB3E-F0B6-D4CF-EE58-5C00412371AB" referredColumn="7BDECEC6-23FB-1EA5-2FC4-98C098ECE0F8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="953BFDE9-83C0-179C-CDA3-60C877B7F526" name="PERFIL_RECURSOS_PK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C096557A-CFAD-5428-0BEB-EF51FABCF261"/>
+<colUsage columnID="7489A5AC-04D4-E138-09BF-16DA95F5FFC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B6DBBDB-66F8-2AB2-C649-7CBF04A5F0DF" name="PERFIL_RECURSOS_PERFIL_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>409B7C11-E6B9-44A7-68DB-DF7EB11384CB</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C096557A-CFAD-5428-0BEB-EF51FABCF261"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF5B94CD-37FE-33C2-BC0F-970FB48F1E7B" name="PERFIL_RECURSOS_RECURSOS_FK">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-13 13:12:43 UTC</createdTime>
+<generatorID>409B7C11-E6B9-44A7-68DB-DF7EB11384CB</generatorID>
+<ownerDesignName>bd_easy</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7489A5AC-04D4-E138-09BF-16DA95F5FFC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

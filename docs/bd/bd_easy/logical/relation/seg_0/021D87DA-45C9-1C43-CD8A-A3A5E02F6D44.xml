@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTE_EVENTO" directorySegmentName="seg_0" id="021D87DA-45C9-1C43-CD8A-A3A5E02F6D44">
+<createdBy>cuatr</createdBy>
+<createdTime>2023-07-12 21:08:16 UTC</createdTime>
+<ownerDesignName>bd_easy</ownerDesignName>
+<engineerTo>
+<item key="AAA50B78-19CB-FD85-8E8C-7B5D7B37CCA8" value="true"/>
+</engineerTo>
+<sourcePk>599FD75D-E05F-AACE-5BDA-898869CAD713</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CFB60277-FFF0-D638-3FA7-BA7639865E22</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23015CC8-0606-4F30-6506-3A89ADE56443</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
